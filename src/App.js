@@ -1,20 +1,14 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <p>
           Hello world
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          It's Raghav
-        </a>
       </header>
     </div>
   );
