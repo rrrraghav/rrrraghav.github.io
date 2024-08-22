@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center" id="rp-title">
+    <h1>Recent Projects</h1>
+</div>
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Local Fresh Deliveries</h3>
+      <p>Developed a full-stack web application simulating a local food delivery service using MySQL, Flask and Streamlit</p>
+      <a href="https://github.com/rrrraghav/local-fresh-deliveries" class="github-link">
+        <button class="btn btn-primary rounded-pill px-3" type="button">GitHub Repo</button>
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Reversi</h3>
+      <p>Designed a Reversi game with AI players and multiple board options (Java, JUnit, Swing) using MVC architecture and Object-Oriented design patterns</p>
+      <!--
+      <a href="#" class="icon-link">
+        Call to action
+        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+      -->
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Flight Deal Finder</h3>
+      <p>Developed a tool to find the cheapest flight deals available (Pandas, Requests) and automate personalized email notifications (Smtplib)</p>
+      <a href="https://github.com/rrrraghav/flight-deals" class="github-link">
+        <button class="btn btn-primary rounded-pill px-3" type="button">GitHub Repo</button>
+      </a>
+    </div>
+</div>
+<hr/>
+<div class="d-flex justify-content-center" id="fpi-title">
+    <h1>Future Project Ideas</h1>
+</div>
+
+{% endblock %}

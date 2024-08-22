@@ -12,10 +12,6 @@ def home():
 def experience():
     return render_template('experience.html')
 
-@app.route('/education')
-def education():
-    return render_template('education.html')
-
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
@@ -24,9 +20,9 @@ def projects():
 def personal():
     return render_template('personal.html')
 
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
