@@ -19,6 +19,17 @@
 </div>
 <!--  Resume  -->
 <div class="d-flex justify-content-center">
-    <button class="btn btn-primary rounded-pill px-3" type="button">View Resume</button>
+    <a href="{{ url_for('resume') }}">
+      <button type="button" class="btn btn-primary">Resume</button>
+    </a>
+</div>
+<br />
+<div class="d-flex justify-content-center">
+    <a href="https://www.linkedin.com/in/rraghav-mathurr/">
+      <button class="btn btn-primary" type="button" style="margin-right: 3px;">LinkedIn</button>
+    </a>
+    <a href="https://github.com/rrrraghav">
+      <button class="btn btn-primary" type="button">GitHub</button>
+    </a>
 </div>
 {% endblock %}
