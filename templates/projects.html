@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center" id="rp-title">
+    <h1>Recent Projects</h1>
+</div>
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <h3 class="fs-2 text-body-emphasis">Local Fresh Deliveries</h3>
+      <p>
+        Developed a data-driven full-stack web app for the ‘Farm Fresh to Table’ value chain connecting farmers and fishermen directly with customers, while enabling associated delivery logistics for fulfilment and a customized user experience for each role<br/><br/>
+        MySQL, Python - Flask, Streamlit
+      </p>
+      <a href="https://github.com/rrrraghav/local-fresh-deliveries" class="github-link">
+        <button class="btn btn-primary" type="button">GitHub Repo</button>
+      </a>
+    </div>
+    <div class="feature col">
+      <h3 class="fs-2 text-body-emphasis">Reversi</h3>
+      <p>Designed a variant of the Reversi game with AI players and multiple board options (traditional and hexagonal) using MVC architecture and Object-Oriented design patterns<br/>
+        Conducted rigorous testing to handle all edge cases<br/><br/>
+        Java, JUnit, Swing
+      </p>
+    </div>
+    <div class="feature col">
+      <h3 class="fs-2 text-body-emphasis">Flight Deal Finder</h3>
+      <p>Developed a tool that find the cheapest flight deals by reading and analyzing API data<br/>
+        Users can sign up to receive automated personalized email alerts<br/><br/>
+        Python - Pandas, Requests, Smtplib
+      </p>
+      <a href="https://github.com/rrrraghav/flight-deals" class="github-link">
+        <button class="btn btn-primary" type="button">GitHub Repo</button>
+      </a>
+    </div>
+</div>
+<hr/>
+<div class="d-flex justify-content-center" id="fpi-title">
+    <h1>Future Project Ideas</h1>
+</div>
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="fpi-container">
+      <div class="col p-4 d-flex flex-column position-static">
+        <h3 class="mb-0">Interactive Music Website</h3>
+        <p class="card-text mb-auto">
+          Create a page with a color-changing background that "dances" to music it hears<br/><br/>
+          JavaScript (React), Digital Signal Processing (DSP)
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="fpi-container">
+      <div class="col p-4 d-flex flex-column position-static">
+        <h3 class="mb-0">Update Personal Website</h3>
+        <p class="card-text mb-auto">
+          Convert this website to a JavaScript and React application<br/><br/><br/><br/>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
